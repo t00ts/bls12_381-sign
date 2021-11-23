@@ -6,9 +6,9 @@
 
 syntax = "proto3";
 package signer;
-option go_package = "github.com/dusk-network/bls12_381-sign/go/bls";
+option go_package = "github.com/t00ts/bls12_381-sign/go/bls";
 
-// Signer must always satisfy github.com/dusk-network/bls12_381-sign/go/bls
+// Signer must always satisfy github.com/t00ts/bls12_381-sign/go/bls
 service Signer {
   rpc GenerateKeys(GenerateKeysRequest) returns (GenerateKeysResponse);
   rpc Sign(SignRequest) returns (SignResponse);

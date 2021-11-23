@@ -11,4 +11,4 @@ We use protobuf to strictly define the API. The schema is available [here](https
 
 ## Usage
 
-We provide a bloat-free [example](https://github.com/dusk-network/bls12_381-sign/go/grpc) of a client written in Go which fully describes all API methods that can be used for reference.
+We provide a bloat-free [example](https://github.com/t00ts/bls12_381-sign/go/grpc) of a client written in Go which fully describes all API methods that can be used for reference.
